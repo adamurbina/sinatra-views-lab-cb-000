@@ -5,7 +5,6 @@ class App < Sinatra::Base
 	end
 
 	get '/hello' do
-		raise "HELL NO #{Time.new}"
 		erb :hello
 	end
 
