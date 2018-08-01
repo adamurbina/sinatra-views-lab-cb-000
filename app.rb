@@ -5,6 +5,7 @@ class App < Sinatra::Base
 	end
 
 	get '/hello' do
+		raise "HELL NO"
 		erb :hello
 	end
 
